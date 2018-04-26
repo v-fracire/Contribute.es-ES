@@ -1,0 +1,7 @@
+- name: Docs
+  href: /
+  homepage: /
+  items:
+    - name: Guía para colaboradores
+      href: /contribute/
+      homepage: /contribute/
