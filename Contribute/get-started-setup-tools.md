@@ -8,11 +8,11 @@ ms.date: 01/04/2018
 ms.prod: non-product-specific
 ms.topic: contributor-guide
 ms.custom: external-contributor-guide
-ms.openlocfilehash: 62c4b234f23b470ffea33cacdfc469fbd7e526bd
-ms.sourcegitcommit: dd1b4e915f4996ac029d2a0704ced785438d3484
+ms.openlocfilehash: 0ca942e557640db1ba36d3f5b1064656ed3dea8d
+ms.sourcegitcommit: 3ec397fab57ea582edb03a59609f62d886410ee8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2018
+ms.lasthandoff: 04/28/2018
 ---
 # <a name="install-content-authoring-tools"></a>Instalación de herramientas de creación de contenido
 
@@ -22,9 +22,9 @@ En este artículo se describen los pasos para instalar de forma interactiva herr
 > * Instalación de [Visual Studio Code](https://code.visualstudio.com/)
 
 >[!IMPORTANT]
-> Si solo va a realizar cambios de menor importancia en un artículo, *no* necesita realizar todos los pasos del artículo y, por tanto, puede continuar directamente con el [flujo de trabajo para cambios menores y poco frecuentes](light-workflow.md).
+> Si solo va a realizar cambios de menor importancia en un artículo, *no* necesita realizar todos los pasos del artículo y, por tanto, puede continuar directamente con el [flujo de trabajo para cambios rápidos](index.md#quick-edits-to-existing-documents).
 >
-> Se pide a los principales colaboradores que completen estos pasos, que le permiten usar el [flujo de trabajo de cambios mayores y de larga duración](full-workflow.md). Aunque disponga de permisos de escritura en el repositorio principal, *se recomienda encarecidamente que bifurque y clone el repositorio (y en esta guía se supone que así lo ha hecho)*, de manera que tendrá permisos de lectura y escritura para almacenar los cambios propuestos en la bifurcación.
+> Se pide a los principales colaboradores que completen estos pasos, que le permiten usar el [flujo de trabajo de cambios mayores y de larga duración](how-to-write-workflows-major.md). Aunque disponga de permisos de escritura en el repositorio principal, *se recomienda encarecidamente que bifurque y clone el repositorio (y en esta guía se supone que así lo ha hecho)*, de manera que tendrá permisos de lectura y escritura para almacenar los cambios propuestos en la bifurcación.
 
 ## <a name="install-git-client-tools-on-windows"></a>Instalación de las herramientas de cliente para Git en Windows
 
