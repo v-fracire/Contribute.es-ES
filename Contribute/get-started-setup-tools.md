@@ -1,18 +1,18 @@
 ---
 title: Instalación de herramientas de creación de contenido
 description: Este artículo le ayuda a descargar e instalar las herramientas de cliente que necesitará para Git y la edición de archivos de Markdown.
-author: bryanla
-ms.author: bryanla
-manager: mbaldwin
-ms.date: 01/04/2018
+author: jasonwhowell
+ms.author: jasonh
+manager: kfile
+ms.date: 04/30/2018
 ms.prod: non-product-specific
 ms.topic: contributor-guide
 ms.custom: external-contributor-guide
-ms.openlocfilehash: 0ca942e557640db1ba36d3f5b1064656ed3dea8d
-ms.sourcegitcommit: 3ec397fab57ea582edb03a59609f62d886410ee8
+ms.openlocfilehash: 1011c3fc829202a3df134ddc80eb05b8959b7bf6
+ms.sourcegitcommit: 7b668124f25b8ad0442937a3ad05b19a47af5970
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/28/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="install-content-authoring-tools"></a>Instalación de herramientas de creación de contenido
 
@@ -20,6 +20,7 @@ En este artículo se describen los pasos para instalar de forma interactiva herr
 > [!div class="checklist"]
 > * Instalación de [Git para Windows](https://git-scm.com/download/win)
 > * Instalación de [Visual Studio Code](https://code.visualstudio.com/)
+> * Instalación del [paquete de creación de Docs](https://marketplace.visualstudio.com/items?itemName=docsmsft.docs-authoring-pack)
 
 >[!IMPORTANT]
 > Si solo va a realizar cambios de menor importancia en un artículo, *no* necesita realizar todos los pasos del artículo y, por tanto, puede continuar directamente con el [flujo de trabajo para cambios rápidos](index.md#quick-edits-to-existing-documents).
@@ -58,6 +59,16 @@ Descargue e instale [VS Code](https://code.visualstudio.com/). La página princi
 
 > [!TIP]
 > Para ejecutar VS Code y abrir la carpeta actual, ejecute el comando `code .` en la línea de comandos o el shell de bash. Si la carpeta actual forma parte de un repositorio de Git local, la integración de github aparece automáticamente en Visual Studio Code.
+
+## <a name="docs-authoring-pack"></a>Paquete de creación de Docs
+Instale el paquete de creación de Docs para Visual Studio Code. Este conjunto de extensiones incluye asistencia básica de creación para facilitar la escritura de Markdown, además de una característica de vista previa, para que pueda ver el aspecto de Markdown con el estilo del sitio docs.microsoft.com.
+
+   Visite esta [página de Marketplace](https://marketplace.visualstudio.com/items?itemName=docsmsft.docs-authoring-pack) y seleccione **Install** (Instalar) o busque `docsmsft.docs-authoring-pack` en la lista de extensiones en la ventana de VS Code. 
+
+   Presione Alt+M en VS Code para acceder al paquete de creación de Docs. La barra de herramientas está oculta de forma predeterminada, pero se puede mostrar. Edite la configuración de VS Code (Control+coma) y agregue los ajustes de usuario `"markdown.showToolbar": true` para mostrar la barra de herramientas.
+
+   Para más información, vea la página del [paquete de creación de Docs](how-to-write-docs-auth-pack.md).
+
 
 ## <a name="next-steps"></a>Pasos siguientes
 
