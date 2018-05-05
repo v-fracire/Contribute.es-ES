@@ -8,11 +8,11 @@ ms.date: 06/30/2017
 ms.prod: non-product-specific
 ms.topic: contributor-guide
 ms.custom: external-contributor-guide
-ms.openlocfilehash: 5ad2ca323b680078c2bfd2fc4cac6fb1883c411f
-ms.sourcegitcommit: dd1b4e915f4996ac029d2a0704ced785438d3484
+ms.openlocfilehash: 5f7f90b69953e23833906202c739d2168b139d7e
+ms.sourcegitcommit: 3ec397fab57ea582edb03a59609f62d886410ee8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2018
+ms.lasthandoff: 04/28/2018
 ---
 # <a name="git-and-github-essentials-for-docs"></a>Aspectos básicos sobre Git y GitHub para Docs
 
@@ -80,7 +80,7 @@ Para mayor comodidad, el directorio raíz de cada repositorio suele contener un 
 
 Una *solicitud de incorporación de cambios* es un método cómodo para que un colaborador proponga una serie de cambios aplicables a la rama predeterminada. Los cambios (conocidos también como *confirmaciones*) se almacenan en la rama de un colaborador, de tal forma que se permite a GitHub modelar primero el impacto que tiene *fusionarlos* en la rama predeterminada. Una solicitud de incorporación de cambios también sirve como un mecanismo para proporcionar comentarios al colaborador sobre un proceso de compilación o validación, para que el revisor de la solicitud pueda resolver los posibles problemas o preguntas antes de que los cambios se fusionen en la rama predeterminada.
 
-Hay dos maneras de contribuir por solicitud de extracción, en función del tamaño de los cambios que quiere proponer. Trataremos esta cuestión más a fondo posteriormente, en la sección sobre el [flujo de trabajo de GitHub](light-workflow.md) de esta guía.
+Hay dos maneras de contribuir por solicitud de extracción, en función del tamaño de los cambios que quiere proponer. Trataremos esta cuestión más a fondo posteriormente, en la sección sobre el [flujo de trabajo de GitHub](how-to-write-workflows-major.md) de esta guía.
 
 <!---- Reference links for Docs landing pages, associated GitHub repositories, and related Forums matrix. ------------------>
 <!---- PLEASE INSERT URLS IN ASCENDING SORT ORDER, AND REMOVE LOCALE SEGMENT FROM URLS (that is, en-us) FOR LOCALIZED FORUMS! -->

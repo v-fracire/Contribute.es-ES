@@ -54,6 +54,6 @@ Los artículos técnicos están traducidos en varios idiomas, y algunos se modif
 
 ## <a name="localized-documentation"></a>Documentación localizada
 
-- Si va a colaborar en la documentación localizada, consulte el [Portal lingüístico de Microsoft](https://www.microsoft.com/Language/Default.aspx).
+- Si va colaborar en la documentación localizada, consulte el [Portal lingüístico de Microsoft](https://www.microsoft.com/Language/Default.aspx).
 - Para consultar las instrucciones de localización, información sobre el estilo y el uso del idioma en las publicaciones técnicas e información sobre formatos de datos específicos según el mercado, descargue la [guía de estilo](https://www.microsoft.com/Language/StyleGuides.aspx) en su idioma.
 - Para consultar la terminología localizada de Microsoft, busque los [términos aprobados específicamente para un producto](https://www.microsoft.com/Language/Search.aspx) o descargue la [Colección de terminología de Microsoft](https://www.microsoft.com/Language/Terminology.aspx) en su idioma.
