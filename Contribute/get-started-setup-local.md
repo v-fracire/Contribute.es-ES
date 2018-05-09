@@ -8,11 +8,11 @@ ms.date: 01/18/2018
 ms.prod: non-product-specific
 ms.topic: contributor-guide
 ms.custom: external-contributor-guide
-ms.openlocfilehash: d9c7211641fb05aaca8a76e10c7216ff61a5d23c
-ms.sourcegitcommit: dd1b4e915f4996ac029d2a0704ced785438d3484
+ms.openlocfilehash: f702d0d29ee7dc9c69cb26b79bf6283d91b6b6bc
+ms.sourcegitcommit: 3ec397fab57ea582edb03a59609f62d886410ee8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2018
+ms.lasthandoff: 04/28/2018
 ---
 # <a name="set-up-git-repository-locally-for-documentation"></a>Configuración local del repositorio de Git para documentación
 
@@ -27,7 +27,7 @@ Ejecute estas actividades de instalación única para comenzar a contribuir:
 > * Configurar el valor remoto ascendente
 
 > [!IMPORTANT]
-> Si solo va a realizar cambios de menor importancia en un artículo, *no* necesita realizar los pasos de este artículo. Puede continuar directamente con el [flujo de trabajo para cambios menores y poco frecuentes](light-workflow.md).
+> Si solo va a realizar cambios de menor importancia en un artículo, *no* necesita realizar los pasos de este artículo. Puede continuar directamente con el [flujo de trabajo para cambios rápidos](index.md#quick-edits-to-existing-documents).
 >
 
 ## <a name="overview"></a>Información general
@@ -46,7 +46,7 @@ La documentación hospedada en [docs.microsoft.com](https://docs.microsoft.com) 
 
 1. Si no está seguro de qué repositorio debe usar, visite el artículo en docs.microsoft.com mediante el explorador web. Seleccione el vínculo **Editar** (icono de lápiz) de la esquina superior derecha del artículo.
 
-   ![Haga clic en Editar para determinar la ubicación del repositorio y el archivo.](media/edit-article.png)
+   ![Haga clic en Editar para determinar la ubicación del repositorio y el archivo.](media/index/edit-article.png)
 
 2. Este vínculo le lleva a la ubicación de github.com del archivo de Markdown correspondiente en el repositorio adecuado. Anote la dirección URL para ver el nombre del repositorio.
 
@@ -62,7 +62,7 @@ La documentación hospedada en [docs.microsoft.com](https://docs.microsoft.com) 
 ## <a name="fork-the-repository"></a>Bifurcar el repositorio
 A través del sitio web de GitHub, cree una bifurcación del repositorio apropiado en su propia cuenta de GitHub.
 
-La bifurcación personal es necesaria porque todos los repositorios principales de documentación conceden acceso de solo lectura, lo que significa que no es posible realizar cambios directamente en el contenido de los repositorios. Para poder realizar cambios, debe enviar una [solicitud de incorporación de cambios](git-github-fundamentals.md#pull-requests) desde su bifurcación al repositorio principal. Para facilitar este proceso, primero necesita su copia del repositorio, sobre la que tendrá acceso de escritura. Una *bifurcación* de GitHub sirve para este propósito.
+La bifurcación personal es necesaria porque todos los repositorios principales de documentación conceden acceso de solo lectura, lo que significa que no es posible realizar cambios directamente en el contenido de los repositorios. Para poder realizar cambios, debe enviar una [solicitud de incorporación de cambios](git-github-fundamentals.md#pull-requests) desde su bifurcación al repositorio principal. Para facilitar este proceso, primero necesita su copia del repositorio, sobre la que tendrá acceso de escritura. Una *bifurcación* de GitHub sirve para este propósito
 
 1. Vaya a la página del repositorio principal de GitHub y haga clic en el botón **Bifurcar** en la parte superior derecha.
 

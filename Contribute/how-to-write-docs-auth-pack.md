@@ -1,19 +1,18 @@
 ---
 title: Paquete de creación de Docs para VS Code
-description: Paquete de extensiones de VS Code que facilita la creación de contenido para docs.microsoft.com con Markdown.
+description: En este artículo se describe el paquete de extensiones de VS Code que facilita la creación de contenido para docs.microsoft.com con Markdown.
 author: meganbradley
 ms.author: mbradley
 manager: jemash
 ms.date: 04/06/2018
-ms.article: contributor-guide
-ms.prod: n.a
-ms.service: n.a
-ms.technology: n.a
-ms.openlocfilehash: 5c857deb07e28e1f6744c895a291bf78a6acf1df
-ms.sourcegitcommit: dd1b4e915f4996ac029d2a0704ced785438d3484
+ms.prod: non-product-specific
+ms.topic: contributor-guide
+ms.custom: external-contributor-guide
+ms.openlocfilehash: d0d61db2faf88598ecd2c800fb5fbe8df8ec44f5
+ms.sourcegitcommit: 7b668124f25b8ad0442937a3ad05b19a47af5970
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2018
+ms.lasthandoff: 05/03/2018
 ---
 # <a name="docs-authoring-pack-for-vs-code"></a>Paquete de creación de Docs para VS Code
 
@@ -87,7 +86,7 @@ Los antiguos usuarios de la extensión de código "Gauntlet" observarán que la 
 
 ## <a name="known-issues"></a>Problemas conocidos
 
-- [Vista previa de DocFX] MacOS y Linux: la vista previa de DocFX no se inicia correctamente (para estas plataformas, la vista previa predeterminada es la de VS Code Markdown).
-- [Vista previa de DocFx] Todas las plataformas: alguna sintaxis, como vínculos xref (de referencia cruzada) a las API, no se representa correctamente en la vista previa, dejando en algunos casos espacios de contenido en blanco.
-- [Marcadores externos] Linux: aparece la lista de archivos, pero no se muestra ningún título para seleccionar.
-- [Incluye] Linux: se muestra la lista de archivos, pero no se agrega ningún vínculo después de realizar la selección.
+- Vista previa de DocFX: en MacOS y Linux, la vista previa de DocFX no se inicia correctamente (para estas plataformas, la vista previa predeterminada es la de VS Code Markdown).
+- Vista previa de DocFx: en todas las plataformas, parte de la sintaxis, como vínculos xref (de referencia cruzada) a las API, no se representa correctamente en la vista previa, ya que en algunos casos deja espacios de contenido en blanco.
+- Marcadores externos: en Linux, aparece la lista de archivos, pero no se muestra ningún título para seleccionar.
+- Incluye: en Linux, se muestra la lista de archivos, pero no se agrega ningún vínculo después de realizar la selección.
