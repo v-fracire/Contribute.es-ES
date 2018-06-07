@@ -9,10 +9,11 @@ ms.prod: non-product-specific
 ms.topic: contributor-guide
 ms.custom: external-contributor-guide
 ms.openlocfilehash: 1699e57ac6a4dc4c5a1ef099ea183b3cbc6307cd
-ms.sourcegitcommit: e046e7aad8ed22bffe5380d63a9d40f0baeecc57
+ms.sourcegitcommit: 782b689882cce3ce07f5613763322989f2d0d63f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/22/2018
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "34469541"
 ---
 # <a name="using-links-in-documentation"></a>Uso de vínculos en la documentación
 En este artículo se describe cómo se usan los hipervínculos de páginas hospedadas en docs.microsoft.com. Es fácil agregar vínculos en Markdown con una serie de convenciones. Los vínculos señalan contenido de la misma página, de páginas vecinas o de sitios o direcciones URL externos.
