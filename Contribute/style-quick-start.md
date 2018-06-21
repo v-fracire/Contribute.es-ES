@@ -1,19 +1,13 @@
 ---
 title: 'Guía de estilo de Docs: inicio rápido'
 description: Este artículo es una guía concisa sobre consideraciones de estilo, que solo contiene los temas básicos de introducción a docs.microsoft.com.
-author: bryanla
-ms.author: bryanla
-manager: mbaldwin
 ms.date: 07/25/2017
-ms.prod: non-product-specific
-ms.topic: contributor-guide
-ms.custom: external-contributor-guide
-ms.openlocfilehash: 74f78b72f61cfebddb0cb03b73a3a806f4fe4a10
-ms.sourcegitcommit: 782b689882cce3ce07f5613763322989f2d0d63f
+ms.openlocfilehash: 34cd0dc1760f2a569f8bfec782f04b2691a74470
+ms.sourcegitcommit: 92aef5ea8bdd692c5c393d5c8f99b9e4f672ef2b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "34469403"
+ms.lasthandoff: 06/19/2018
+ms.locfileid: "36239612"
 ---
 # <a name="docs-style-and-voice-quick-start"></a>Inicio rápido sobre estilo y voz de Docs
 
@@ -56,5 +50,6 @@ Los artículos técnicos están traducidos en varios idiomas, y algunos se modif
 ## <a name="localized-documentation"></a>Documentación localizada
 
 - Si va colaborar en la documentación localizada, consulte el [Portal lingüístico de Microsoft](https://www.microsoft.com/Language/Default.aspx).
-- Para consultar las instrucciones de localización, información sobre el estilo y el uso del idioma en las publicaciones técnicas e información sobre formatos de datos específicos según el mercado, descargue la [guía de estilo](https://www.microsoft.com/Language/StyleGuides.aspx) en su idioma.
-- Para consultar la terminología localizada de Microsoft, busque los [términos aprobados específicamente para un producto](https://www.microsoft.com/Language/Search.aspx) o descargue la [Colección de terminología de Microsoft](https://www.microsoft.com/Language/Terminology.aspx) en su idioma.
+- Para consultar las instrucciones de localización, información sobre el estilo y el uso del idioma en las publicaciones técnicas e información sobre formatos de datos específicos según el mercado, descargue la [guía de estilo](https://www.microsoft.com/Language/StyleGuides) en su idioma.
+- Para consultar la terminología localizada de Microsoft, busque los [términos aprobados específicamente para un producto](https://www.microsoft.com/Language/Default.aspx) o descargue la [Colección de terminología de Microsoft](https://www.microsoft.com/Language/Terminology.aspx) en su idioma.
+- Puede obtener más información al respecto en la [sección de localización](https://docs.microsoft.com/style-guide/global-communications/) de la guía de estilo de Microsoft.
