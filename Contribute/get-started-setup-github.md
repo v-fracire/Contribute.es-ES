@@ -1,19 +1,13 @@
 ---
 title: Pasos configurar cuentas de GitHub
 description: Este artículo le servirá de guía en el proceso de configuración de las cuentas de GitHub, que son necesarias para contribuir al contenido de docs.microsoft.com.
-author: bryanla
-ms.author: bryanla
-manager: mbaldwin
 ms.date: 02/27/2018
-ms.prod: non-product-specific
-ms.topic: contributor-guide
-ms.custom: external-contributor-guide
-ms.openlocfilehash: 131736a3b12314147ae5f3f76813527d8bcd15bc
-ms.sourcegitcommit: 782b689882cce3ce07f5613763322989f2d0d63f
+ms.openlocfilehash: 15fa7c11090a5c4faefe38d00d273e92c231329b
+ms.sourcegitcommit: 92aef5ea8bdd692c5c393d5c8f99b9e4f672ef2b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "34469472"
+ms.lasthandoff: 06/19/2018
+ms.locfileid: "36238952"
 ---
 # <a name="github-account-setup"></a>Configuración de la cuenta de GitHub
 

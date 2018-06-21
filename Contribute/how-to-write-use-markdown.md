@@ -1,19 +1,13 @@
 ---
 title: Uso de Markdown para escribir Docs
 description: En este artículo se proporciona información básica y de referencia para el lenguaje Markdown que se utiliza para escribir artículos de docs.microsoft.com.
-author: bryanla
-ms.author: bryanla
-manager: mbaldwin
 ms.date: 07/13/2017
-ms.prod: non-product-specific
-ms.topic: contributor-guide
-ms.custom: external-contributor-guide
-ms.openlocfilehash: 041398361aef90c44bdf3a0dad4aaa2d40a38289
-ms.sourcegitcommit: 782b689882cce3ce07f5613763322989f2d0d63f
+ms.openlocfilehash: dca1ccba2ae4ebd08b6039f5d780e7a7ac92e79f
+ms.sourcegitcommit: 92aef5ea8bdd692c5c393d5c8f99b9e4f672ef2b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "34469955"
+ms.lasthandoff: 06/19/2018
+ms.locfileid: "36238975"
 ---
 # <a name="how-to-use-markdown-for-writing-docs"></a>Uso de Markdown para escribir Docs
 
