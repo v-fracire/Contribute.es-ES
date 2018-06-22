@@ -1,19 +1,13 @@
 ---
 title: Cómo usar vínculos en la documentación
 description: En este artículo se explica cómo crear vínculos al contenido de docs.microsoft.com.
-author: bryanla
-ms.author: bryanla
-manager: mbaldwin
 ms.date: 06/29/2017
-ms.prod: non-product-specific
-ms.topic: contributor-guide
-ms.custom: external-contributor-guide
-ms.openlocfilehash: 1699e57ac6a4dc4c5a1ef099ea183b3cbc6307cd
-ms.sourcegitcommit: 782b689882cce3ce07f5613763322989f2d0d63f
+ms.openlocfilehash: a66e2fb4febf1947afe01919b96b1c10873cf57d
+ms.sourcegitcommit: 92aef5ea8bdd692c5c393d5c8f99b9e4f672ef2b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "34469541"
+ms.lasthandoff: 06/19/2018
+ms.locfileid: "36239735"
 ---
 # <a name="using-links-in-documentation"></a>Uso de vínculos en la documentación
 En este artículo se describe cómo se usan los hipervínculos de páginas hospedadas en docs.microsoft.com. Es fácil agregar vínculos en Markdown con una serie de convenciones. Los vínculos señalan contenido de la misma página, de páginas vecinas o de sitios o direcciones URL externos.
@@ -63,7 +57,10 @@ Para crear un vínculo insertado desde un artículo técnico de Docs a otro art�
   `[link text](../directory/article-name.md)`
 
 - Un artículo con vínculos a varios conjuntos de documentos (incluso si están en el mismo repositorio): `[link text](./directory/article-name)`
-  
+
+> [!IMPORTANT]
+> En ninguno de los ejemplos anteriores se usa `~/` como parte del vínculo. Si se trata de un vínculo a una ruta de acceso a la raíz del repositorio, inícielo con `/`. El hecho de incluir `~/` produce vínculos no válidos al navegar por los repositorios de origen en GitHub. Si se inicia la ruta de acceso con `/`, se resolverá correctamente.
+
 ## <a name="links-to-anchors"></a>Vínculos a delimitadores
 
 No tiene que crear delimitadores. Se generan automáticamente el momento de la publicación para todos los encabezados H2. Lo único que tiene que hacer es crear vínculos a las secciones H2.
