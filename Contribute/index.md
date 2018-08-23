@@ -5,18 +5,18 @@ author: billwagner
 ms.author: wiwagn
 manager: wpickett
 ms.date: 04/17/2018
-ms.openlocfilehash: a0c52fea8f3a57cdfe89c2cd7a24ef7b511ada7c
-ms.sourcegitcommit: 92aef5ea8bdd692c5c393d5c8f99b9e4f672ef2b
+ms.openlocfilehash: 6206f61a69c14575a726da9ce64ad0b765c7aa87
+ms.sourcegitcommit: 886ca76086a302d1d6124967df12a5bcfe4fd4b5
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/19/2018
-ms.locfileid: "36239778"
+ms.lasthandoff: 08/10/2018
+ms.locfileid: "40251426"
 ---
 # <a name="microsoft-docs-contributor-guide-overview"></a>Guía para colaboradores de Microsoft Docs: información general
 
 Le damos la bienvenida a la guía para colaboradores de [docs.microsoft.com](https://docs.microsoft.com) (Docs).
 
-Algunos de nuestros conjuntos de documentación son de código abierto y están hospedados en GitHub. Cada vez son más los equipos que están adoptando este modelo. Incluso los conjuntos de documentos que no son completamente de código abierto tienen repositorios públicos en los que se pueden realizar solicitudes de incorporación de cambios. De este modo, se optimiza y se mejora la comunicación entre los ingenieros de productos, los equipos de contenido y nuestros clientes. Al trabajar a la vista, se puede disfrutar de diversas ventajas:
+Algunos de nuestros conjuntos de documentación son de código abierto y están hospedados en GitHub. Cada vez son más los equipos en Microsoft que están adoptando este modelo. Incluso los conjuntos de documentos que no son completamente de código abierto tienen repositorios públicos en los que se pueden realizar solicitudes de incorporación de cambios. De este modo, se optimiza y se mejora la comunicación entre los ingenieros de productos, los equipos de contenido y nuestros clientes. Al trabajar a la vista, se puede disfrutar de diversas ventajas:
 
 - Los repositorios de código abierto se planean a la vista para obtener comentarios sobre qué documentos son más necesarios.
 - Los repositorios de código abierto se revisan a la vista para publicar el contenido más útil en la primera versión.

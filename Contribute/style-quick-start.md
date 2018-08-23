@@ -2,22 +2,22 @@
 title: 'Guía de estilo de Docs: inicio rápido'
 description: Este artículo es una guía concisa sobre consideraciones de estilo, que solo contiene los temas básicos de introducción a docs.microsoft.com.
 ms.date: 07/25/2017
-ms.openlocfilehash: 34cd0dc1760f2a569f8bfec782f04b2691a74470
-ms.sourcegitcommit: 92aef5ea8bdd692c5c393d5c8f99b9e4f672ef2b
+ms.openlocfilehash: 3a91669ba9ad6711bcc436952d1d6cb311b9d4f6
+ms.sourcegitcommit: 886ca76086a302d1d6124967df12a5bcfe4fd4b5
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/19/2018
-ms.locfileid: "36239612"
+ms.lasthandoff: 08/10/2018
+ms.locfileid: "40243032"
 ---
 # <a name="docs-style-and-voice-quick-start"></a>Inicio rápido sobre estilo y voz de Docs
 
-Necesitará dedicar algún tiempo a leer esta guía de inicio rápido, pero le dará una buena idea sobre cómo aplicar los conceptos de estilo de Docs más importantes al escribir artículos para docs.microsoft.com. Estas instrucciones se aplican para crear documentos o actualizar los existentes.
+Este inicio rápido es una breve guía para escribir contenido técnico para su publicación en docs.microsoft.com. Estas instrucciones se aplican para crear documentos o actualizar los existentes.
 
-Como mínimo:
+Procedimientos recomendados:
 
 - Compruebe la ortografía y la gramática de los artículos, aunque tenga que copiar y pegar el texto en Word para hacerlo.
 - Use un tono informal y amable, como si estuviera hablando con otra persona cara a cara.
-- Use oraciones sencillas. Son más fáciles de entender y, además, su traducción resulta más sencilla tanto para motores de traducción automáticos como para traductores profesionales.
+- Use oraciones sencillas. Oraciones fáciles de leer significa que el lector puede usar rápidamente la guía que usted comparte.
 
 ## <a name="use-the-microsoft-voice-principles"></a>Use los principios sobre el tono de Microsoft
 
