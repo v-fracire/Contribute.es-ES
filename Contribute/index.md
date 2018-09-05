@@ -5,12 +5,12 @@ author: billwagner
 ms.author: wiwagn
 manager: wpickett
 ms.date: 04/17/2018
-ms.openlocfilehash: 6206f61a69c14575a726da9ce64ad0b765c7aa87
-ms.sourcegitcommit: 886ca76086a302d1d6124967df12a5bcfe4fd4b5
+ms.openlocfilehash: 94fad6f4b2faeefff687eb57cd2de8a0fb5bbbf3
+ms.sourcegitcommit: 5e508a7ad2991632a38f302e4769b36e3bf37eb2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/10/2018
-ms.locfileid: "40251426"
+ms.lasthandoff: 08/30/2018
+ms.locfileid: "43308902"
 ---
 # <a name="microsoft-docs-contributor-guide-overview"></a>Guía para colaboradores de Microsoft Docs: información general
 
@@ -46,6 +46,12 @@ Una vez que haya realizado los cambios, desplácese hasta la parte inferior de l
 
 ![propuesta de cambio](./media/index/submit-pull-request.png)
 
+Ahora que ha propuesto el cambio, es necesario solicitar a los propietarios del repositorio que "inserten" los cambios en su repositorio. Para ello, se usa algo denominado "solicitud de incorporación de cambios". Al hacer clic en **Propose file change** (Proponer cambio en archivo) en la ilustración anterior, se le dirigirá a una nueva página con un aspecto similar a la ilustración siguiente:
+
+![creación de solicitud de incorporación de cambios](media/index/create-pull-request.png)
+
+Haga clic en **Crear solicitud de incorporación de cambios**, escriba un título (y opcionalmente una descripción) para la solicitud de incorporación de cambios y, de nuevo, haga clic en **Crear solicitud de incorporación de cambios**.
+
 Eso es todo. Los miembros del equipo de contenido revisarán y combinarán la solicitud de incorporación de cambios. Es probable que reciba un comentario en el que se le solicite algún cambio si ha realizado cambios grandes.
 
 La interfaz de usuario de edición de GitHub responde a sus permisos en el repositorio. Las imágenes anteriores hacen referencia a colaboradores que no tienen permisos de escritura en el repositorio de destino. GitHub crea automáticamente una rama del repositorio de destino en su cuenta. Si tiene acceso de escritura al repositorio de destino, GitHub crea en él una rama. El nombre de la rama tiene el formato **\<GitHubId\>-patch-n**, en el que se usa su identificador de GitHub y un identificador numérico para la rama de la revisión.
@@ -53,6 +59,12 @@ La interfaz de usuario de edición de GitHub responde a sus permisos en el repos
 Usamos solicitudes de incorporación de cambios para todos los cambios, incluso en el caso de los colaboradores que tienen acceso de escritura. La mayoría de los repositorios tienen la rama `master` protegida para que las actualizaciones se tengan que enviar como solicitudes de incorporación de cambios.
 
 La experiencia de edición en el explorador es mejor para los cambios menores o poco frecuentes. Si realiza grandes colaboraciones o usa características avanzadas de Git (como la administración de ramas o la resolución avanzada de conflictos de fusión), debe [bifurcar el repositorio y trabajar localmente](how-to-write-workflows-major.md).
+
+> [!NOTE]
+> Si está habilitado, puede editar un artículo en **cualquier idioma** y, en función del tipo de edición, ocurrirá lo siguiente:
+> 1. cualquier cambio lingüístico aprobado ayudará también a mejorar nuestro motor de traducción automática
+> 2. cualquier edición que modifique significativamente el contenido del artículo se administrará internamente para enviar un cambio al mismo artículo en inglés, de modo que se localice en todos los idiomas, si se aprueba.
+> Por lo tanto, sus sugerencias de mejora no solo incidirán de manera positiva en los artículos de su propio idioma, sino en todos los idiomas disponibles.
 
 ## <a name="review-open-prs"></a>Revisión de solicitudes de incorporación de cambios abiertas
 
