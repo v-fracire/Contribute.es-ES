@@ -2,12 +2,12 @@
 title: Cómo usar vínculos en la documentación
 description: En este artículo se explica cómo crear vínculos al contenido de docs.microsoft.com.
 ms.date: 06/29/2017
-ms.openlocfilehash: dad0460cfb36594c17cef1b079c5fc14191f56f7
-ms.sourcegitcommit: 886ca76086a302d1d6124967df12a5bcfe4fd4b5
+ms.openlocfilehash: 92c23f2b91c67d7a1695c5f1e5dcdc80a8517f6e
+ms.sourcegitcommit: 37cd16636d7dcfc5222ef5a5d60e4ff30f74485c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/10/2018
-ms.locfileid: "40251466"
+ms.lasthandoff: 10/02/2018
+ms.locfileid: "48030942"
 ---
 # <a name="using-links-in-documentation"></a>Uso de vínculos en la documentación
 En este artículo se describe cómo se usan los hipervínculos de páginas hospedadas en docs.microsoft.com. Es fácil agregar vínculos en Markdown con una serie de convenciones. Los vínculos señalan contenido de la misma página, de páginas vecinas o de sitios o direcciones URL externos.
@@ -158,7 +158,7 @@ La parte &lt;moniker-name&gt; es opcional. Si se omite, se le redireccionará a 
 Si hace clic en estas direcciones URL, se le redireccionará a la última versión del contenido. De esta forma, no tiene que especificar un moniker de versión. Además, evita tener vínculos a contenido conceptual que se deba actualizar cuando la versión cambia.
 
 Para crear el vínculo correcto, busque la página a la que quiere redireccionar en el explorador y copie la dirección URL.
-A continuación, quite "https://docs.microsoft.com" y la información de configuración regional.
+A continuación, quite ´ "https://docs.microsoft.com" ´ y la información de configuración regional.
 
 Cuando el vínculo remita a una tabla de contenido, debe usar la dirección URL completa sin la información de configuración regional.
 
