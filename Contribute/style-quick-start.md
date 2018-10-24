@@ -2,12 +2,12 @@
 title: 'Guía de estilo de Docs: inicio rápido'
 description: Este artículo es una guía concisa sobre consideraciones de estilo, que solo contiene los temas básicos de introducción a docs.microsoft.com.
 ms.date: 07/25/2017
-ms.openlocfilehash: 3a91669ba9ad6711bcc436952d1d6cb311b9d4f6
-ms.sourcegitcommit: 886ca76086a302d1d6124967df12a5bcfe4fd4b5
+ms.openlocfilehash: 861181c7bfa22881fdd11327d19b2d7d517775c8
+ms.sourcegitcommit: 6f1997864c000a9cd25fb9171a8f8fdb8b5b5ece
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/10/2018
-ms.locfileid: "40243032"
+ms.lasthandoff: 10/11/2018
+ms.locfileid: "49084408"
 ---
 # <a name="docs-style-and-voice-quick-start"></a>Inicio rápido sobre estilo y voz de Docs
 
@@ -15,7 +15,7 @@ Este inicio rápido es una breve guía para escribir contenido técnico para su 
 
 Procedimientos recomendados:
 
-- Compruebe la ortografía y la gramática de los artículos, aunque tenga que copiar y pegar el texto en Word para hacerlo.
+- Compruebe la ortografía y la gramática de los artículos, aunque tenga que copiar y pegar el texto en Microsoft Word para hacerlo.
 - Use un tono informal y amable, como si estuviera hablando con otra persona cara a cara.
 - Use oraciones sencillas. Oraciones fáciles de leer significa que el lector puede usar rápidamente la guía que usted comparte.
 
@@ -45,11 +45,11 @@ Los artículos técnicos están traducidos en varios idiomas, y algunos se modif
 - Para los pasos que incluyen fragmentos de código, inserte información adicional sobre el paso en el código como comentario. De esta forma, se reduce la cantidad de texto que hay que leer. La información clave se copia en el proyecto de código para recordar a los lectores lo que hace el código cuando hacen referencia a él más adelante.
 - Escriba todos los títulos y los encabezados con la primera letra en mayúscula.
 - Use "iniciar sesión" en lugar de "registrarse".
-- Incluya las palabras "siguiente" o "como sigue" en todas las oraciones que preceden a una lista o fragmento de código.
+- Para obtener más instrucciones, vea la [Guía de estilo de escritura de Microsoft](https://docs.microsoft.com/style-guide/welcome).
 
 ## <a name="localized-documentation"></a>Documentación localizada
 
 - Si va colaborar en la documentación localizada, consulte el [Portal lingüístico de Microsoft](https://www.microsoft.com/Language/Default.aspx).
 - Para consultar las instrucciones de localización, información sobre el estilo y el uso del idioma en las publicaciones técnicas e información sobre formatos de datos específicos según el mercado, descargue la [guía de estilo](https://www.microsoft.com/Language/StyleGuides) en su idioma.
 - Para consultar la terminología localizada de Microsoft, busque los [términos aprobados específicamente para un producto](https://www.microsoft.com/Language/Default.aspx) o descargue la [Colección de terminología de Microsoft](https://www.microsoft.com/Language/Terminology.aspx) en su idioma.
-- Puede obtener más información al respecto en la [sección de localización](https://docs.microsoft.com/style-guide/global-communications/) de la guía de estilo de Microsoft.
+- Para obtener más información sobre la localización, vea "Comunicaciones globales" en la [Guía de estilo de escritura de Microsoft](https://docs.microsoft.com/style-guide/global-communications).
