@@ -2,12 +2,12 @@
 title: 'Guía de estilo de Docs: inicio rápido'
 description: Este artículo es una guía concisa sobre consideraciones de estilo, que solo contiene los temas básicos de introducción a docs.microsoft.com.
 ms.date: 07/25/2017
-ms.openlocfilehash: 861181c7bfa22881fdd11327d19b2d7d517775c8
-ms.sourcegitcommit: 6f1997864c000a9cd25fb9171a8f8fdb8b5b5ece
+ms.openlocfilehash: f5c32d3fb71ef3513c68b9c506c823997bfe4d8f
+ms.sourcegitcommit: d3c7b49dc854dae8da9cd49da8ac4035789a5010
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/11/2018
-ms.locfileid: "49084408"
+ms.lasthandoff: 10/23/2018
+ms.locfileid: "49805605"
 ---
 # <a name="docs-style-and-voice-quick-start"></a>Inicio rápido sobre estilo y voz de Docs
 
@@ -51,5 +51,5 @@ Los artículos técnicos están traducidos en varios idiomas, y algunos se modif
 
 - Si va colaborar en la documentación localizada, consulte el [Portal lingüístico de Microsoft](https://www.microsoft.com/Language/Default.aspx).
 - Para consultar las instrucciones de localización, información sobre el estilo y el uso del idioma en las publicaciones técnicas e información sobre formatos de datos específicos según el mercado, descargue la [guía de estilo](https://www.microsoft.com/Language/StyleGuides) en su idioma.
-- Para consultar la terminología localizada de Microsoft, busque los [términos aprobados específicamente para un producto](https://www.microsoft.com/Language/Default.aspx) o descargue la [Colección de terminología de Microsoft](https://www.microsoft.com/Language/Terminology.aspx) en su idioma.
+- Para consultar la terminología localizada de Microsoft, busque los [términos aprobados específicamente para un producto](https://www.microsoft.com/Language/Default.aspx) o descargue la [Colección de terminología de Microsoft](https://www.microsoft.com/language/Terminology) en su idioma.
 - Para obtener más información sobre la localización, vea "Comunicaciones globales" en la [Guía de estilo de escritura de Microsoft](https://docs.microsoft.com/style-guide/global-communications).
