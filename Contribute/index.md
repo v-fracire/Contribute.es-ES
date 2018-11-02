@@ -5,12 +5,12 @@ author: billwagner
 ms.author: wiwagn
 manager: wpickett
 ms.date: 04/17/2018
-ms.openlocfilehash: 94fad6f4b2faeefff687eb57cd2de8a0fb5bbbf3
-ms.sourcegitcommit: 5e508a7ad2991632a38f302e4769b36e3bf37eb2
+ms.openlocfilehash: 921c63c2748149543bfc73e4b38278a2ed74ac56
+ms.sourcegitcommit: d3c7b49dc854dae8da9cd49da8ac4035789a5010
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "43308902"
+ms.lasthandoff: 10/23/2018
+ms.locfileid: "49805801"
 ---
 # <a name="microsoft-docs-contributor-guide-overview"></a>Guía para colaboradores de Microsoft Docs: información general
 
@@ -64,7 +64,7 @@ La experiencia de edición en el explorador es mejor para los cambios menores o 
 > Si está habilitado, puede editar un artículo en **cualquier idioma** y, en función del tipo de edición, ocurrirá lo siguiente:
 > 1. cualquier cambio lingüístico aprobado ayudará también a mejorar nuestro motor de traducción automática
 > 2. cualquier edición que modifique significativamente el contenido del artículo se administrará internamente para enviar un cambio al mismo artículo en inglés, de modo que se localice en todos los idiomas, si se aprueba.
-> Por lo tanto, sus sugerencias de mejora no solo incidirán de manera positiva en los artículos de su propio idioma, sino en todos los idiomas disponibles.
+> Por tanto, las sugerencias de mejora no solo incidirán de manera positiva en los artículos en su propio idioma, sino en todos los idiomas disponibles.
 
 ## <a name="review-open-prs"></a>Revisión de solicitudes de incorporación de cambios abiertas
 

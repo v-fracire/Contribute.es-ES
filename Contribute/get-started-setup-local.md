@@ -3,14 +3,13 @@ title: Configuración local de un repositorio de Git
 description: Este artículo le servirá de guía para crear un repositorio local de Git y contribuir a la documentación. Se incluye el proceso de bifurcación y clonación.
 author: jasonwhowell
 ms.author: jasonh
-manager: kfile
 ms.date: 01/18/2018
-ms.openlocfilehash: 2ad0de552d481e2460ca0f56570181e33d0a6608
-ms.sourcegitcommit: 92aef5ea8bdd692c5c393d5c8f99b9e4f672ef2b
+ms.openlocfilehash: 895c0fb0d64708e8e3d0f632c10a060791d15b65
+ms.sourcegitcommit: d3c7b49dc854dae8da9cd49da8ac4035789a5010
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/19/2018
-ms.locfileid: "36238998"
+ms.lasthandoff: 10/23/2018
+ms.locfileid: "49805686"
 ---
 # <a name="set-up-git-repository-locally-for-documentation"></a>Configuración local del repositorio de Git para documentación
 
@@ -30,7 +29,7 @@ Ejecute estas actividades de instalación única para comenzar a contribuir:
 
 ## <a name="overview"></a>Información general
 
-Para contribuir al sitio de documentación de Microsoft, puede crear y editar archivos de Markdown localmente clonando el repositorio de documentación correspondiente. Microsoft requiere que bifurque el repositorio adecuado en su propia cuenta de github, de manera que tenga permisos de lectura y escritura en ella para almacenar los cambios propuestos. A continuación, use las solicitudes de incorporación de cambios para combinar los cambios en el repositorio central compartido de solo lectura.
+Para contribuir al sitio de documentación de Microsoft, puede crear y editar archivos de Markdown localmente clonando el repositorio de documentación correspondiente. Microsoft requiere que bifurque el repositorio adecuado en su propia cuenta de GitHub, de manera que tenga permisos de lectura y escritura en ella para almacenar los cambios propuestos. A continuación, use las solicitudes de incorporación de cambios para combinar los cambios en el repositorio central compartido de solo lectura.
 
 ![Triángulo de GitHub](./media/git-and-github-initial-setup.png)
 
@@ -60,7 +59,7 @@ La documentación hospedada en [docs.microsoft.com](https://docs.microsoft.com) 
 ## <a name="fork-the-repository"></a>Bifurcar el repositorio
 A través del sitio web de GitHub, cree una bifurcación del repositorio apropiado en su propia cuenta de GitHub.
 
-La bifurcación personal es necesaria porque todos los repositorios principales de documentación conceden acceso de solo lectura, lo que significa que no es posible realizar cambios directamente en el contenido de los repositorios. Para poder realizar cambios, debe enviar una [solicitud de incorporación de cambios](git-github-fundamentals.md#pull-requests) desde su bifurcación al repositorio principal. Para facilitar este proceso, primero necesita su copia del repositorio, sobre la que tendrá acceso de escritura. Una *bifurcación* de GitHub sirve para este propósito
+Se requiere una bifurcación personal, dado que todos los repositorios de documentación principales proporcionan acceso de solo lectura. Para poder realizar cambios, debe enviar una [solicitud de incorporación de cambios](git-github-fundamentals.md#pull-requests) desde su bifurcación al repositorio principal. Para facilitar este proceso, primero necesita su copia del repositorio, sobre la que tendrá acceso de escritura. Una *bifurcación* de GitHub sirve para este propósito
 
 1. Vaya a la página del repositorio principal de GitHub y haga clic en el botón **Bifurcar** en la parte superior derecha.
 
@@ -84,7 +83,7 @@ La copia del repositorio debe alojarse en una carpeta local. Algunos repositorio
 
    Para determinar el directorio actual, escriba `pwd` en la línea de comandos $. 
 
-3. Cambie el directorio (cd) a la carpeta que ha creado para hospedar localmente el repositorio. Observe que, en las rutas de las carpetas, Git Bash sigue la convención de Linux y utiliza la barra diagonal en lugar de la barra diagonal inversa.
+3. Cambie el directorio (cd) a la carpeta que ha creado para hospedar localmente el repositorio. Observe que, en las rutas de acceso de las carpetas, Git Bash sigue la convención de Linux y usa la barra diagonal en lugar de la barra diagonal inversa.
 
    Por ejemplo, `cd /c/docs/ ` o `cd ~/Documents/docs/`.
 

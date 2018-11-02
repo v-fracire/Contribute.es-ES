@@ -1,20 +1,19 @@
 ---
-title: Paquete de creación de Docs para VS Code
-description: En este artículo se describe el paquete de extensiones de VS Code que facilita la creación de contenido para docs.microsoft.com con Markdown.
+title: Paquete de creación de Docs para Visual Studio Code
+description: En este artículo se describe el paquete de extensiones de Visual Studio Code que facilita la creación de contenido para docs.microsoft.com con Markdown.
 author: meganbradley
 ms.author: mbradley
-manager: jemash
-ms.date: 04/06/2018
-ms.openlocfilehash: b9fedce0a73c5c4212ffd0893c745fab56677c8c
-ms.sourcegitcommit: 5e508a7ad2991632a38f302e4769b36e3bf37eb2
+ms.date: 10/22/2018
+ms.openlocfilehash: 00afafbbf16096ac6433c0ab276578d8d9084b51
+ms.sourcegitcommit: d3c7b49dc854dae8da9cd49da8ac4035789a5010
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "43308925"
+ms.lasthandoff: 10/23/2018
+ms.locfileid: "49805663"
 ---
 # <a name="docs-authoring-pack-for-vs-code"></a>Paquete de creación de Docs para VS Code
 
-El paquete de creación de Docs (Docs Authoring Pack) es una colección de extensiones de VS Code que facilita la creación de contenidos para docs.microsoft.com con Markdown. El paquete está [disponible en VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=docsmsft.docs-authoring-pack) y contiene las extensiones siguientes:
+El paquete de creación de Docs es una colección de extensiones de Visual Studio Code que facilita la creación de contenidos para docs.microsoft.com con Markdown. El paquete está [disponible en VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=docsmsft.docs-authoring-pack) y contiene las extensiones siguientes:
 
 - [markdownlint:](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint) popular linter de Markdown creado por David Anson para ayudar a aplicar los procedimientos recomendados en su código de Markdown.
 - [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker): un corrector ortográfico que funciona totalmente sin conexión de Street Side Software.
@@ -103,7 +102,7 @@ La extensión Templates admite tres campos de metadatos dinámicos: author, ms.a
 |----------|---------------|
 |author    |El id. de GitHub, si se especifica en el archivo de configuración de VS Code.|
 |ms.author |El alias de Microsoft, si se especifica en el archivo de configuración de VS Code. Si no es empleado de Microsoft, deje esto sin especificar.|
-|ms.date   |La fecha actual en formato admitido por Docs; esto es, MM/DD/AAAA. Tenga en cuenta que la fecha no se actualiza automáticamente si posteriormente actualiza el archivo; debe actualizarlo manualmente para indicar la fecha de actualización del artículo.|
+|ms.date   |La fecha actual en formato admitido por Docs; esto es, MM/DD/AAAA. Tenga en cuenta que la fecha no se actualiza de forma automática si posteriormente actualiza el archivo. Tendrá que actualizar de forma manual el valor ms.date para indicar la fecha de publicación más reciente en el sitio docs.microsoft.com.|
 
 ### <a name="to-set-author-github-id-andor-msauthor-microsoft-alias"></a>Para establecer el valor author (id. de GitHub) o ms.author (alias de Microsoft)
 

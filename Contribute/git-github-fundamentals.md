@@ -2,12 +2,12 @@
 title: Aspectos básicos sobre Git y GitHub para documentación
 description: En este artículo se ofrece información general sobre Git, el repositorio GitHub, la organización del contenido y las convenciones de nomenclatura usadas para docs.microsoft.com.
 ms.date: 06/30/2017
-ms.openlocfilehash: 8a116067fdd7d031c560abfb7055236e0bfb1a3d
-ms.sourcegitcommit: 92aef5ea8bdd692c5c393d5c8f99b9e4f672ef2b
+ms.openlocfilehash: 05c758845007f859382014166e88fd9614cdb873
+ms.sourcegitcommit: d3c7b49dc854dae8da9cd49da8ac4035789a5010
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/19/2018
-ms.locfileid: "36239811"
+ms.lasthandoff: 10/23/2018
+ms.locfileid: "49805709"
 ---
 # <a name="git-and-github-essentials-for-docs"></a>Aspectos básicos sobre Git y GitHub para Docs
 
@@ -30,8 +30,8 @@ Git también una estructura en capas para almacenar y administrar el contenido d
 
 Los colaboradores interactúan con Git para actualizar y manipular los repositorios tanto a nivel local como en GitHub:
 
-- La colaboración puede realizarse de forma local con herramientas como la consola de Git Bash, que admite los comandos de Git para administrar los repositorios locales y establecer conexiones con los repositorios de GitHub.
-- También puede realizarse directamente en [www.github.com](https://www.github.com), donde se integra Git para administrar la conciliación de las colaboraciones que se dirigen de nuevo al repositorio principal.
+- La colaboración se puede realizar de forma local con herramientas como la consola de Git Bash, que admite los comandos de Git para administrar los repositorios locales y establecer la comunicación con los repositorios de GitHub.
+- A través de [www.github.com](https://www.github.com), donde se integra Git para administrar la conciliación de las colaboraciones que se dirigen de nuevo al repositorio principal.
 
 ## <a name="github"></a>GitHub
 
@@ -46,7 +46,7 @@ Todos los flujos de trabajo empiezan y terminan en GitHub, donde se almacena el 
 
 Como se ha mencionado anteriormente, la rama predeterminada o principal de un proyecto sirve como la versión actual del contenido del proyecto. El contenido de la rama principal y de las ramas creadas a partir de ella se alinea de forma general con la organización de los artículos en las páginas de Docs correspondientes. Los subdirectorios se usan para separar el contenido similar (como los servicios) y el contenido multimedia (como los archivos de imagen), e "incluyen" archivos, que permiten reutilizar el contenido.
 
-Por norma general, encontrará un directorio principal `articles` que parte directamente de la raíz del repositorio. El directorio de artículos contiene un conjunto de subdirectorios. Los artículos de los subdirectorios presentan el formato de archivos Markdown, que usan una extensión *.md*. Algunos repositorios compatibles con varios servicios usan un subdirectorio `/articles` genérico, como el repositorio [https://github.com/microsoft/Azure-Docs](https://github.com/microsoft/Azure-Docs). Otros pueden usar un nombre específico del servicio, como el repositorio [https://github.com/microsoft/IntuneDocs](https://github.com/microsoft/IntuneDocs), que usa `/IntuneDocs`.
+Por norma general, encontrará un directorio principal `articles` que parte directamente de la raíz del repositorio. El directorio de artículos contiene un conjunto de subdirectorios. Los artículos de los subdirectorios presentan el formato de archivos Markdown, que usan una extensión *.md*. En algunos repositorios compatibles con varios servicios se usa un subdirectorio `/articles` genérico, como el repositorio [Azure-Docs](https://github.com/MicrosoftDocs/Azure-Docs). En otros es posible que se use un nombre específico del servicio, como el repositorio [IntuneDocs](https://github.com/MicrosoftDocs/IntuneDocs), en el que se usa `/IntuneDocs`.
 
 En la raíz de este directorio, puede encontrar artículos generales relacionados con el servicio o producto general. Además, normalmente puede encontrar otra serie de subdirectorios, que concilian las características y los servicios o escenarios comunes. Por ejemplo, los artículos sobre "máquinas virtuales" de Azure se encuentran en el subdirectorio `/virtual-machines`, y los artículos de "comprensión y exploración" de Intune, en el subdirectorio `/understand-explore`.
 
