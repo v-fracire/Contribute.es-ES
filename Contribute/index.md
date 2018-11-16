@@ -5,12 +5,12 @@ author: billwagner
 ms.author: wiwagn
 manager: wpickett
 ms.date: 04/17/2018
-ms.openlocfilehash: 921c63c2748149543bfc73e4b38278a2ed74ac56
-ms.sourcegitcommit: d3c7b49dc854dae8da9cd49da8ac4035789a5010
+ms.openlocfilehash: dab2de80654fb55382b2ca7c9f78df36df9971dc
+ms.sourcegitcommit: 44eb4f5ee65c1848d7f36fca107b296eb7687397
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "49805801"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "51609370"
 ---
 # <a name="microsoft-docs-contributor-guide-overview"></a>Guía para colaboradores de Microsoft Docs: información general
 
@@ -37,10 +37,12 @@ Las ediciones rápidas optimizan el proceso de notificación y corrección de pe
 
 Después, haga clic en el icono de lápiz para editar el artículo, como se muestra en la imagen siguiente.
 
-> [!NOTE]
-> Si el icono de lápiz aparece atenuado, debe iniciar sesión en su cuenta de GitHub o crear una cuenta. Haga los cambios necesarios en el editor web. Puede hacer clic en la pestaña **Vista previa de los cambios** para comprobar el formato del cambio.
-
 ![Ubicación del icono de lápiz](./media/index/editicon.png)
+
+> [!NOTE]
+> Si el icono de lápiz aparece atenuado, debe iniciar sesión en su cuenta de GitHub o crear una cuenta.
+
+Haga los cambios necesarios en el editor web. Puede hacer clic en la pestaña **Vista previa de los cambios** para comprobar el formato del cambio.
 
 Una vez que haya realizado los cambios, desplácese hasta la parte inferior de la página. Escriba un título y una descripción para la solicitud de incorporación de cambios y haga clic en **Propose file change** (Proponer cambio de archivo), como se muestra en la imagen siguiente:
 
