@@ -5,12 +5,12 @@ author: jasonwhowell
 ms.author: jasonh
 manager: kfile
 ms.date: 04/30/2018
-ms.openlocfilehash: 9f22a416810711c076645a9483f022112a3a7642
-ms.sourcegitcommit: 886ca76086a302d1d6124967df12a5bcfe4fd4b5
+ms.openlocfilehash: 715634a9a2342311eb1d358cb8379f90a7074d80
+ms.sourcegitcommit: 44eb4f5ee65c1848d7f36fca107b296eb7687397
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/10/2018
-ms.locfileid: "40251418"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "51609401"
 ---
 # <a name="install-content-authoring-tools"></a>Instalación de herramientas de creación de contenido
 
@@ -47,7 +47,7 @@ Markdown es un lenguaje de marcado ligero fácil de leer y de aprender. Por ello
 
 El texto de Markdown se guarda en archivos con extensión .md.
 
-La información adicional sobre cómo escribir con Markdown, incluidos los aspectos básicos y las características de Markdown compatibles con las extensiones de Markdown personalizadas para OPS, se proporciona más adelante en el artículo [Uso de Markdown](how-to-write-use-markdown.md).
+La información adicional sobre cómo escribir con Markdown, incluidos los aspectos básicos y las características de Markdown compatibles con las extensiones de Markdown personalizadas para Servicios de publicación abierta (OPS), se proporciona en los artículos [Uso de Markdown para escribir Docs](how-to-write-use-markdown.md) y [Referencia de Markdown para OPS](markdown-reference.md).
 
 ## <a name="visual-studio-code"></a>Visual Studio Code
 
@@ -60,7 +60,7 @@ Descargue e instale [VS Code](https://code.visualstudio.com/). La página princi
 - [Linux](https://code.visualstudio.com/docs/setup/linux)
 
 > [!TIP]
-> Para ejecutar VS Code y abrir la carpeta actual, ejecute el comando `code .` en la línea de comandos o el shell de bash. Si la carpeta actual forma parte de un repositorio de Git local, la integración de github aparece automáticamente en Visual Studio Code.
+> Para ejecutar VS Code y abrir la carpeta actual, ejecute el comando `code .` en la línea de comandos o el shell de bash. Si la carpeta actual forma parte de un repositorio de Git local, la integración de GitHub aparece de forma automática en Visual Studio Code.
 
 ## <a name="docs-authoring-pack"></a>Paquete de creación de Docs
 Instale el paquete de creación de Docs para Visual Studio Code. Este conjunto de extensiones incluye asistencia básica de creación para facilitar la escritura de Markdown, además de una característica de vista previa, para que pueda ver el aspecto de Markdown con el estilo del sitio docs.microsoft.com.

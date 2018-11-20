@@ -2,18 +2,18 @@
 title: Uso de Markdown para escribir Docs
 description: En este artículo se proporciona información básica y de referencia para el lenguaje Markdown que se utiliza para escribir artículos de docs.microsoft.com.
 ms.date: 07/13/2017
-ms.openlocfilehash: 6bb8a1fa20957512addb07dda0e68abec4b0a83f
-ms.sourcegitcommit: d3c7b49dc854dae8da9cd49da8ac4035789a5010
+ms.openlocfilehash: 21194c4bd6020d847b526a4d9544c826aa199e2a
+ms.sourcegitcommit: 44eb4f5ee65c1848d7f36fca107b296eb7687397
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "49805742"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "51609531"
 ---
 # <a name="how-to-use-markdown-for-writing-docs"></a>Uso de Markdown para escribir Docs
 
 Los artículos de [docs.microsoft.com](http://docs.microsoft.com) están escritos en un lenguaje de marcado ligero denominado [Markdown](https://daringfireball.net/projects/markdown/), que resulta fácil de leer y de aprender. Por ello, se ha convertido rápidamente en un estándar del sector.
 
-Como el contenido de Docs se almacena en GitHub, puede usar un superconjunto de Markdown denominado [GitHub Flavored Markdown (GFM)](https://help.github.com/categories/writing-on-github/), que proporciona una funcionalidad adicional para necesidades comunes de aplicación de formato. Además, la plataforma de Servicios de publicación abierta (OPS) implementa Markdig Markdown Parser. Markdig ofrece alta compatibilidad con GFM y agrega funciones para habilitar características específicas de Docs.
+Como el contenido de Docs se almacena en GitHub, puede usar un superconjunto de Markdown denominado [GitHub Flavored Markdown (GFM)](https://help.github.com/categories/writing-on-github/), que proporciona una funcionalidad adicional para necesidades comunes de aplicación de formato. Además, la plataforma Servicios de publicación abierta (OPS) implementa Markdig Markdown Parser. Markdig ofrece alta compatibilidad con GFM y agrega funciones para habilitar características específicas de Docs.
 
 * Markdig es un procesador de Markdown extensible para .NET rápido, potente y conforme a CommonMark.
 * https://github.com/lunet-io/markdig
@@ -32,6 +32,14 @@ Para crear un encabezado, debe usar una marca hash (#) como sigue:
 ### This is heading 3
 #### This is heading 4
 ```
+
+Los encabezados se deben expresar en estilo atx, es decir usar de 1 a 6 caracteres de hash (#) al inicio de la línea para indicar un encabezado, lo que se corresponde a los niveles de título HTML de H1 a H6. Anteriormente se usan ejemplos de encabezados de nivel 1 a 4.
+
+Solo **debe** haber un encabezado de primer nivel (H1) en el título, que se mostrará como el título de la página.
+
+Si el encabezado termina con un carácter `#`, tendrá que agregar un carácter `#` adicional al final para que el título se represente de forma correcta. Por ejemplo, `# Async Programming in F# #`.
+
+Los encabezados de segundo nivel generarán la tabla de contenido de la página que aparece en la sección "En este artículo" por debajo del título de la página.
 
 ### <a name="bold-and-italic-text"></a>Texto en negrita y cursiva
 
@@ -52,6 +60,18 @@ Para aplicar formato de ***negrita y cursiva*** al texto, debe encerrarlo entre 
 ```markdown
 This is text is both ***bold and italic***.
 ```
+
+### <a name="blockquotes"></a>Citas en bloque
+
+Las citas en bloque se crean con el carácter `>`:
+
+```markdown
+> The drought had lasted now for ten million years, and the reign of the terrible lizards had long since ended. Here on the Equator, in the continent which would one day be known as Africa, the battle for existence had reached a new climax of ferocity, and the victor was not yet in sight. In this barren and desiccated land, only the small or the swift or the fierce could flourish, or even hope to survive.
+```
+
+El ejemplo anterior se representa de esta forma:
+
+> La sequía duraba ya 10 millones de años, y el reinado de los terribles reptiles había desaparecido hacía tiempo. Aquí en el Ecuador, en el continente que un día sería conocido como África, la batalla por la supervivencia había alcanzado su punto de máxima crueldad, pero no había rastro del vencedor. En esta tierra yerma y desolada, solo prosperarían los más pequeños, veloces o fieros, los únicos con la esperanza de sobrevivir.
 
 ### <a name="lists"></a>Listas
 
@@ -93,8 +113,8 @@ Para aplicar formato a una lista ordenada o de pasos, debe usar los números cor
 
 ```markdown
 1. First instruction
-2. Second instruction
-3. Third instruction
+1. Second instruction
+1. Third instruction
 ```
 
 se representará como:
@@ -108,8 +128,8 @@ Para anidar una lista dentro de otra, tiene que aplicar sangría a los elementos
 ```markdown
 1. First instruction
    1. Sub-instruction
-   2. Sub-instruction
-2. Second instruction
+   1. Sub-instruction
+1. Second instruction
 ```
 
 se representará como:
@@ -118,6 +138,8 @@ se representará como:
    1. Subinstrucción
    2. Subinstrucción
 2. Segunda instrucción
+
+Observe que se usa "1." para todas las entradas. Facilita la revisión de las diferencias cuando las actualizaciones posteriores incluyan pasos nuevos o quiten pasos existentes.
 
 ### <a name="tables"></a>Tablas
 
@@ -194,6 +216,8 @@ Estos lenguajes tienen nombres descriptivos y la mayoría de ellos realzan el le
 |C++/CX|cppcx|
 |C++/WinRT|cppwinrt|
 |C#|csharp|
+|C# en el explorador|csharp-interactive|
+|Consola|consola|
 |CSHTML|cshtml|
 |DAX|dax|
 |F#|fsharp|
@@ -221,6 +245,8 @@ Estos lenguajes tienen nombres descriptivos y la mayoría de ellos realzan el le
 |VSTS CLI|vstscli|
 |XAML|xaml|
 |XML|xml|
+
+El nombre `csharp-interactive` especifica el lenguaje C#, y la capacidad de ejecutar los ejemplos desde el explorador. Estos fragmentos de código se compilan y ejecutan en un contenedor de Docker, y los resultados de la ejecución del programa se muestran en la ventana del explorador del usuario.
 
 #### <a name="example-c"></a>Ejemplo: C\#
 
@@ -256,8 +282,8 @@ __Markdown__
 
     ```sql
     CREATE TABLE T1 (
-      c1 int PRIMARY KEY,
-      c2 varchar(50) SPARSE NULL
+      c1 int PRIMARY KEY,
+      c2 varchar(50) SPARSE NULL
     );
     ```
 
@@ -265,8 +291,8 @@ __Representación__
 
 ```sql
 CREATE TABLE T1 (
-  c1 int PRIMARY KEY,
-  c2 varchar(50) SPARSE NULL
+  c1 int PRIMARY KEY,
+  c2 varchar(50) SPARSE NULL
 );
 ```
 
@@ -296,6 +322,36 @@ Puede elegir entre cuatro tipos de bloques de notas para centrar la atención en
 
 En general, los bloques de notas deben usarse con moderación porque pueden ser problemáticos. Aunque también admiten bloques de código, imágenes, listas y vínculos, trate de mantener los bloques de notas sencillos y directos.
 
+Ejemplos:
+
+```markdown
+> [!NOTE]
+> This is a NOTE
+
+> [!WARNING]
+> This is a WARNING
+
+> [!TIP]
+> This is a TIP
+
+> [!IMPORTANT]
+> This is IMPORTANT
+```
+
+Se representan de esta forma:
+
+> [!NOTE]
+> Esto es una NOTA
+
+> [!WARNING]
+> Esto es una ADVERTENCIA
+
+> [!TIP]
+> Esto es una SUGERENCIA
+
+> [!IMPORTANT]
+> Esto es IMPORTANTE
+
 ### <a name="includes"></a>Archivos de inclusión
 
 Si tiene archivos de texto o imagen reutilizables que deben incluirse en archivos de artículos, puede usar una referencia al archivo "de inclusión" a través de la característica de inclusión de archivos de Markdig. Esta característica da la orden a OPS para que incluya el archivo en el archivo del artículo en el momento de la compilación, con lo que se convierte en una parte del artículo publicado. Hay tres tipos de archivos de inclusión disponibles para facilitar la reutilización del contenido:
@@ -317,13 +373,29 @@ A continuación se indican requisitos y consideraciones relacionados con los arc
 - Como sucede con los artículos habituales, no comparta contenido multimedia entre los archivos de inclusión. Use un archivo independiente con un nombre exclusivo para cada archivo de inclusión y cada artículo. Almacene el archivo multimedia en la carpeta de medios asociada con el archivo de inclusión.
 - No use un archivo de inclusión como el único contenido de un artículo.  Se supone que los archivos de inclusión deben ser complementarios al contenido del resto del artículo.
 
+Ejemplo:
+
+```markdown
+[!INCLUDE[sample include file](../includes/sampleinclude.md)]
+```
+
 ### <a name="selectors"></a>Selectores
 
-Use los selectores en los artículos técnicos cuando cree varias versiones del mismo artículo, a fin de abordar las diferencias de implementación entre tecnologías o plataformas. Esto suele aplicarse sobre todo a nuestro contenido en de plataformas móviles destinado a desarrolladores. Actualmente hay dos tipos diferentes de selectores en Markdig, un selector único y un selector múltiple.
+Use los selectores en los artículos técnicos cuando cree varias versiones del mismo artículo, a fin de solucionar las diferencias de implementación entre tecnologías o plataformas. Esto suele aplicarse sobre todo a nuestro contenido en de plataformas móviles destinado a desarrolladores. Actualmente hay dos tipos diferentes de selectores en Markdig, un selector único y un selector múltiple.
 
 Como se coloca el mismo selector de Markdown en cada artículo de la selección, se recomienda colocar el selector del artículo en un archivo de inclusión. Después, puede hacer referencia a dicho archivo de inclusión en todos los artículos que usan el mismo selector.
 
-### <a name="code-snippets"></a>Fragmentos de código
+A continuación se muestra un selector de ejemplo:
+
+```markdown
+> [!div class="op_single_selector"]
+- [macOS](../docs/core/tutorials/using-on-macos.md)
+- [Windows](../docs/core/tutorials/with-visual-studio.md)
+```
+
+Puede ver un ejemplo de los selectores en acción en la [documentación de Azure](https://docs.microsoft.com/azure/expressroute/expressroute-howto-circuit-classic).
+
+### <a name="code-includes"></a>Inclusiones de código
 
 Markdig admite la inclusión avanzada de código en un artículo, a través de su extensión de fragmento de código. Proporciona una representación avanzada basada en las características de GFM, como la selección del lenguaje de programación y el color de sintaxis, además de características útiles como:
 
@@ -348,8 +420,7 @@ Incluya una secuencia de escape de guiones bajos como se indica a continuación:
 
 ### <a name="apostrophes-and-quotation-marks"></a>Apóstrofos y comillas
 
-Si copia texto de Word en Markdown editor, el texto debe contener apóstrofos o comillas (inglesas) "inteligentes". Es necesario codificarlos o bien cambiarlos a apóstrofos o comillas básicos.
-De lo contrario, cuando se publique el archivo, aparecerán cosas como esta: Itâ€™s
+Si copia texto de Word en Markdown editor, el texto debe contener apóstrofos o comillas (inglesas) "inteligentes". Es necesario codificarlos o bien cambiarlos a apóstrofos o comillas básicos. De lo contrario, cuando se publique el archivo, aparecerán cosas como esta: Itâ€™s
 
 A continuación se especifica la codificación para las versiones "inteligentes" de estos signos de puntuación:
 

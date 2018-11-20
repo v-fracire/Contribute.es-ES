@@ -1,13 +1,15 @@
 ---
 title: Cómo usar vínculos en la documentación
 description: En este artículo se explica cómo crear vínculos al contenido de docs.microsoft.com.
-ms.date: 06/29/2017
-ms.openlocfilehash: 1820ed9af561964d7afe0b29827ee43526c72489
-ms.sourcegitcommit: d3c7b49dc854dae8da9cd49da8ac4035789a5010
+author: gewarren
+ms.author: gewarren
+ms.date: 10/31/2018
+ms.openlocfilehash: e56bc0fe3a5428af2a79641a8959b4da21270d53
+ms.sourcegitcommit: 44eb4f5ee65c1848d7f36fca107b296eb7687397
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "49805778"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "51609439"
 ---
 # <a name="using-links-in-documentation"></a>Uso de vínculos en la documentación
 En este artículo se describe cómo se usan los hipervínculos de páginas hospedadas en docs.microsoft.com. Es fácil agregar vínculos en Markdown con una serie de convenciones. Los vínculos señalan contenido de la misma página, de páginas vecinas o de sitios o direcciones URL externos.
@@ -22,7 +24,7 @@ El backend del sitio docs.microsoft.com utiliza Open Publishing Services (OPS), 
 Las palabras que incluya en el texto del vínculo deben ser descriptivas. Es decir, deben ser palabras normales en español o el título de la página a la que remite el vínculo.
 
 > [!IMPORTANT]
-> No use "haga clic aquí". No se trata de un texto conveniente para la optimización del motor de búsqueda (SEO) ni describe correctamente el destino.
+> No use "haga clic aquí". No se trata de un texto conveniente para la optimización del motor de búsqueda ni describe correctamente el destino.
 
 **Correcto:**
 
@@ -56,7 +58,7 @@ Para crear un vínculo insertado desde un artículo técnico de Docs a otro art�
 
   `[link text](../directory/article-name.md)`
 
-- Un artículo con vínculos a varios conjuntos de documentos (incluso si están en el mismo repositorio): `[link text](./directory/article-name)`
+- Un artículo con vínculos a varios conjuntos de documentos (incluso si están en el mismo repositorio):  `[link text](./directory/article-name)`
 
 > [!IMPORTANT]
 > En ninguno de los ejemplos anteriores se usa `~/` como parte del vínculo. Si se trata de un vínculo a una ruta de acceso a la raíz del repositorio, inícielo con `/`. El hecho de incluir `~/` produce vínculos no válidos al navegar por los repositorios de origen en GitHub. Si se inicia la ruta de acceso con `/`, se resolverá correctamente.
@@ -84,17 +86,23 @@ No tiene que crear delimitadores. Se generan automáticamente el momento de la p
 
 Como los archivos de inclusión están ubicados en otro directorio, debe usar rutas de acceso relativas más largas. Para vincular un artículo desde un archivo de inclusión, use este formato:
 
-    [link text](../articles/folder/article-name.md)
+   ```markdown
+   [link text](../articles/folder/article-name.md)
+   ```
 
 ## <a name="links-in-selectors"></a>Vínculos en selectores
 
-Si tiene selectores insertados en un archivo de inclusión, como hace el equipo de documentación de Azure, use la siguiente estructura de vínculo:
+Un selector es un componente de navegación que aparece en un artículo de documentación como una lista desplegable. Cuando un lector selecciona un valor en esa lista, el explorador abre el artículo seleccionado. Habitualmente, el selector contiene vínculos a artículos estrechamente relacionados; por ejemplo, un mismo tema en varios lenguajes de programación o bien una serie de artículos estrechamente relacionados. 
 
-    > [AZURE.SELECTOR-LIST (Dropdown1 | Dropdown2 )]
-    - [(Text1 | Example1 )](../articles/folder/article-name1.md)
-    - [(Text1 | Example2 )](../articles/folder/article-name2.md)
-    - [(Text2 | Example3 )](../articles/folder/article-name3.md)
-    - [(Text2 | Example4 )](../articles/folder/article-name4.md) -->
+Si tiene selectores insertados en un archivo de inclusión, use esta estructura de vínculos:
+
+   ```markdown
+   > [AZURE.SELECTOR-LIST (Dropdown1 | Dropdown2 )]
+   - [(Text1 | Example1 )](../articles/folder/article-name1.md)
+   - [(Text1 | Example2 )](../articles/folder/article-name2.md)
+   - [(Text2 | Example3 )](../articles/folder/article-name3.md)
+   - [(Text2 | Example4 )](../articles/folder/article-name4.md) -->
+   ```
 
 ## <a name="reference-style-links"></a>Vínculos tipo referencias
 
@@ -102,23 +110,29 @@ Puede usar vínculos con estilo de referencia para que el contenido de origen re
 
 Texto insertado:
 
-    I get 10 times more traffic from [Google][1] than from [Yahoo][2] or [MSN][3].
+   ```markdown
+   I get 10 times more traffic from [Google][1] than from [Yahoo][2] or [MSN][3].
+   ```
 
 Referencias de vínculos al final del artículo:
 
-    <!--Reference links in article-->
-    [1]: http://google.com/
-    [2]: http://search.yahoo.com/
-    [3]: http://search.msn.com/
-
+   ```markdown
+   <!--Reference links in article-->
+   [1]: http://google.com/
+   [2]: http://search.yahoo.com/
+   [3]: http://search.msn.com/
+   ```
+   
 Asegúrese de incluir el espacio después de los dos puntos, antes del vínculo. Cuando inserta un vínculo a otro artículo técnico, si se olvida de incluir el espacio, el vínculo se romperá en el artículo publicado.
 
 ## <a name="links-to-pages-that-are-not-part-of-the-technical-documentation-set"></a>Vínculos a páginas que no forman parte de la serie de documentos técnicos
 
 Para vincular a una página que no sea propiedad de Microsoft (como una página de precios, una página del Acuerdo de Nivel de Servicio o cualquier otra página que no se corresponda con un artículo de documentación), use una dirección URL absoluta, pero omita la configuración regional. El objetivo en este caso es que los vínculos funcionen en GitHub y en el sitio representado.
 
-    [link text](https://azure.microsoft.com/pricing/details/virtual-machines/)
-
+   ```markdown
+   [link text](https://azure.microsoft.com/pricing/details/virtual-machines/)
+   ```
+   
 ## <a name="links-to-third-party-sites"></a>Vínculos a sitios de terceros
 
 La mejor experiencia del usuario minimiza el redireccionamiento de los usuarios a otro sitio. Por tanto, base todos los vínculos a sitios de terceros, que a veces necesitamos incluir, en esta información:
@@ -146,7 +160,7 @@ Estructura de la dirección URL:
   - `/powershell/azure/<topic-file-name>[?view=<moniker-name>]`
   - `/powershell/azure/<service-name>/<topic-file-name>[?view=<moniker-name>]`
 
-La parte &lt;moniker-name&gt; es opcional. Si se omite, se le redireccionará a la última versión del contenido. La información correspondiente a la sección &lt;service-name&gt; es la que aparece en los ejemplos expuestos en las siguientes direcciones URL base:
+La parte `<moniker-name>` es opcional. Si se omite, se le redireccionará a la última versión del contenido. La parte `<service-name>` es uno de los ejemplos que se muestran en las siguientes direcciones URL base:
 
 - Contenido de Azure PowerShell (AzureRM): [https://docs.microsoft.com/powershell/azure/](https://docs.microsoft.com/powershell/azure/)
 - Contenido de Azure PowerShell (ASM): [https://docs.microsoft.com/powershell/azure/_servicemanagement_](https://docs.microsoft.com/powershell/azure/servicemanagement)

@@ -4,12 +4,12 @@ description: Este artículo le servirá de guía para crear un repositorio local
 author: jasonwhowell
 ms.author: jasonh
 ms.date: 01/18/2018
-ms.openlocfilehash: 895c0fb0d64708e8e3d0f632c10a060791d15b65
-ms.sourcegitcommit: d3c7b49dc854dae8da9cd49da8ac4035789a5010
+ms.openlocfilehash: 5373bf34399105c15caabe0abdc1ea0692c46a4a
+ms.sourcegitcommit: 44eb4f5ee65c1848d7f36fca107b296eb7687397
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "49805686"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "51609508"
 ---
 # <a name="set-up-git-repository-locally-for-documentation"></a>Configuración local del repositorio de Git para documentación
 
@@ -29,7 +29,7 @@ Ejecute estas actividades de instalación única para comenzar a contribuir:
 
 ## <a name="overview"></a>Información general
 
-Para contribuir al sitio de documentación de Microsoft, puede crear y editar archivos de Markdown localmente clonando el repositorio de documentación correspondiente. Microsoft requiere que bifurque el repositorio adecuado en su propia cuenta de GitHub, de manera que tenga permisos de lectura y escritura en ella para almacenar los cambios propuestos. A continuación, use las solicitudes de incorporación de cambios para combinar los cambios en el repositorio central compartido de solo lectura.
+Para contribuir al sitio de documentación de Microsoft, puede crear y editar archivos de Markdown localmente clonando el repositorio de documentación correspondiente. Microsoft requiere que bifurque el repositorio adecuado en su cuenta de GitHub de forma que tenga permisos de lectura y escritura en ella para almacenar los cambios propuestos. A continuación, use las solicitudes de incorporación de cambios para combinar los cambios en el repositorio central compartido de solo lectura.
 
 ![Triángulo de GitHub](./media/git-and-github-initial-setup.png)
 
@@ -41,7 +41,7 @@ Si es la primera vez que usa GitHub, vea el vídeo siguiente para obtener inform
 
 La documentación hospedada en [docs.microsoft.com](https://docs.microsoft.com) reside en varios repositorios diferentes de [github.com](https://www.github.com).
 
-1. Si no está seguro de qué repositorio debe usar, visite el artículo en docs.microsoft.com mediante el explorador web. Seleccione el vínculo **Editar** (icono de lápiz) de la esquina superior derecha del artículo.
+1. Si no sabe qué repositorio debe usar, consulte el artículo de [docs.microsoft.com](https://docs.microsoft.com) mediante el explorador web. Seleccione el vínculo **Editar** (icono de lápiz) de la esquina superior derecha del artículo.
 
    ![Haga clic en Editar para determinar la ubicación del repositorio y el archivo.](media/index/edit-article.png)
 

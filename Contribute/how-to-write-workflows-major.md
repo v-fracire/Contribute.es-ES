@@ -2,12 +2,12 @@
 title: Flujo de trabajo de colaboración de GitHub para cambios mayores o de larga duración
 description: En este artículo se explica cómo usar el flujo de trabajo para colaboradores "principales" con vistas a realizar colaboraciones en los artículos de docs.microsoft.com.
 ms.date: 08/30/2017
-ms.openlocfilehash: 31f9421fc5edbc2f65c5ff20a86da08c70211ec7
-ms.sourcegitcommit: 92aef5ea8bdd692c5c393d5c8f99b9e4f672ef2b
+ms.openlocfilehash: 93e659df4f72c6a272d15fd7487eb3a997bdf3c8
+ms.sourcegitcommit: 44eb4f5ee65c1848d7f36fca107b296eb7687397
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/19/2018
-ms.locfileid: "36239834"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "51609416"
 ---
 # <a name="github-contribution-workflow-for-major-or-long-running-changes"></a>Flujo de trabajo de colaboración de GitHub para cambios mayores o de larga duración
 
@@ -31,7 +31,7 @@ Antes de empezar, debe revisar algunos de los términos y moniker de Git/GitHub 
 | Nombre | Descripción |
 |-----------|-------------|
 |bifurcación|Suele usarse como sustantivo para hacer referencia a una copia de un repositorio principal de GitHub. En la práctica, una bifurcación no es más que otro repositorio. No obstante, resulta especial por el hecho de que GitHub establece una nueva conexión con el repositorio principal o primario. A veces se usa como verbo, como en el caso de "Primero debe bifurcar el repositorio".|
-|Conexión remota|Una conexión con nombre a un repositorio remoto, como la conexión remota con el "origen" o con el repositorio "ascendente". Git hace referencia a estos supuestos con el término "conexiones remotas", ya que estas se usan para hacer referencia a un repositorio hospedado en otro equipo. En este flujo de trabajo, una conexión remota es siempre un repositorio de GitHub.|
+|Conexión remota|Una conexión con nombre a un repositorio remoto, como la conexión remota con el "origen" o con el repositorio "ascendente". Git hace referencia a esto con el término "conexión remota", ya que se usa para hacer referencia a un repositorio hospedado en otro equipo. En este flujo de trabajo, una conexión remota es siempre un repositorio de GitHub.|
 |origen|El nombre asignado a la conexión entre el repositorio local y el repositorio a partir del que se ha realizado la clonación. En este flujo de trabajo, el origen representa la conexión con la bifurcación. A veces se usa como un moniker para el repositorio de origen, como en "Recuerde insertar los cambios en el origen".|
 |ascendente|Como la conexión remota al origen, el término "ascendente" se corresponde con una conexión con nombre a otro repositorio. En este flujo de trabajo, el término "ascendente" representa la conexión entre el repositorio local y el repositorio principal a partir del que se creó la bifurcación. A veces se usa como un moniker para el repositorio ascendente, como en "Recuerde extraer los cambios del repositorio ascendente".|
 
