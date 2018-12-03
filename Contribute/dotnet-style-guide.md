@@ -2,12 +2,12 @@
 title: Plantilla y hoja de referencia para los artículos de .NET
 description: Este artículo contiene una plantilla muy útil que se puede usar para crear artículos para los repositorios de documentación de .NET.
 ms.date: 11/07/2018
-ms.openlocfilehash: 8980f5e39213d8f2edd1d29e66d900f2c3d04bbc
-ms.sourcegitcommit: 44eb4f5ee65c1848d7f36fca107b296eb7687397
+ms.openlocfilehash: 15f64ec86c475e2da2f6539c8f388d076389c4e0
+ms.sourcegitcommit: 68d81b61ffa60aba16acfed023760449e16de91b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "51609748"
+ms.lasthandoff: 11/26/2018
+ms.locfileid: "52299669"
 ---
 # <a name="metadata-and-markdown-template-for-net-docs"></a>Metadatos y plantilla de Markdown para la documentación de .NET
 
@@ -79,9 +79,11 @@ El equipo de documentación de .NET usa las convenciones siguientes:
 - En la mayoría de los casos, se usan los vínculos relativos y se desaconseja el uso de `~/` en los vínculos, ya que los vínculos relativos se resuelven en el origen en GitHub. Pero siempre que se vincula a un archivo en un repositorio dependiente, se usará el carácter `~/` para proporcionar la ruta de acceso. Como los archivos del repositorio dependiente están en otra ubicación de GitHub, los vínculos no se resolverán de forma correcta con vínculos relativos con independencia de cómo se hayan escrito.
 - La especificación de los lenguajes C# y Visual Basic se incluye en la documentación de .NET mediante la inclusión del origen de los repositorios de lenguaje. Los orígenes de Markdown se administran en los repositorios [csharplang](https://github.com/dotnet/csharplang) y [vblang](https://github.com/dotnet/vblang).
 
-Los vínculos a la especificación deben apuntar a los directorios de origen en los que se incluyen esas especificaciones. Para C#, es **~/_csharplang/spec** y para VB, **~/_vblang/spec**.
+Los vínculos a la especificación deben apuntar a los directorios de origen en los que se incluyen esas especificaciones. Para C#, es **~/_csharplang/spec** and for VB, it's **~/_vblang/spec**, como en el ejemplo siguiente:
 
-- Ejemplo: `[C# Query Expressions](~/_csharplang/spec/expressions.md#query-expressions)`
+```markdown
+[C# Query Expressions](~/_csharplang/spec/expressions.md#query-expressions)
+```
 
 ### <a name="links-to-apis"></a>Vínculos a las API
 
@@ -111,13 +113,13 @@ Ejemplos:
 - System.Exception.\#ctor se convierte en `System.Exception.%23ctor`
 - System.Lazy\`1.\#ctor(System.Threading.LazyThreadSafetyMode) se convierte en `System.Lazy%601.%23ctor%28System.Threading.LazyThreadSafetyMode%29`
 
-Puede encontrar los UID de tipos, una lista de sobrecargas de miembros, o bien un miembro de sobrecarga concreto, en `https://xref.docs.microsoft.com/autocomplete`. La cadena de consulta "?text=*\<nombre_del_miembro_tipo>*" identifica el tipo o miembro cuyos UID quiere ver. Por ejemplo, `https://xref.docs.microsoft.com/autocomplete?text=string.format` recupera las sobrecargas de [String.Format](https://docs.microsoft.com/dotnet/api/system.string.format). La herramienta busca el parámetro de consulta `text` proporcionado en cualquier parte del UID. Por ejemplo, puede buscar por nombre de miembro (ToString), nombre de miembro parcial (ToStri), nombre de miembro y tipo (Double.ToString), etc.
+Puede encontrar los UID de tipos, una lista de sobrecargas de miembros, o bien un miembro de sobrecarga concreto, en `https://xref.docs.microsoft.com/autocomplete`. La cadena de consulta `?text=*\<type-member-name>*` identifica el tipo o miembro cuyos UID quiere ver. Por ejemplo, `https://xref.docs.microsoft.com/autocomplete?text=string.format` recupera las sobrecargas de [String.Format](https://docs.microsoft.com/dotnet/api/system.string.format). La herramienta busca el parámetro de consulta `text` proporcionado en cualquier parte del UID. Por ejemplo, puede buscar por nombre de miembro (ToString), nombre de miembro parcial (ToStri), nombre de miembro y tipo (Double.ToString), etc.
 
-Si agrega \* (o %2A) después del UID, el vínculo representará la página de sobrecarga y no una API específica. Por ejemplo, puede usarlo si desea vincular a la página [List\<T>.BinarySearch Method](https://docs.microsoft.com/dotnet/api/system.collections.generic.list-1.binarysearch) de forma genérica en lugar de a una sobrecarga específica como [List\<T>.BinarySearch(T, IComparer\<T>)](https://docs.microsoft.com/dotnet/api/system.collections.generic.list-1.binarysearch#System_Collections_Generic_List_1_BinarySearch__0_). También puede usar \* para vincular a la página de un miembro cuando el miembro no está sobrecargado; esto evita tener que incluir la lista de parámetros en el UID.
+Si agrega \* (o `%2A`) después del UID, el vínculo representará la página de sobrecarga y no una API específica. Por ejemplo, puede usarlo si desea vincular a la página [List\<T>.BinarySearch Method](https://docs.microsoft.com/dotnet/api/system.collections.generic.list-1.binarysearch) de forma genérica en lugar de a una sobrecarga específica como [List\<T>.BinarySearch(T, IComparer\<T>)](https://docs.microsoft.com/dotnet/api/system.collections.generic.list-1.binarysearch#System_Collections_Generic_List_1_BinarySearch__0_). También puede usar \* para vincular a la página de un miembro cuando el miembro no está sobrecargado; esto evita tener que incluir la lista de parámetros en el UID.
 
 Para vincular a una sobrecarga de método concreta, debe incluir el nombre de tipo completo de todos los parámetros del método. Por ejemplo, \<xref:System.DateTime.ToString> vincula al método [DateTime.ToString](https://docs.microsoft.com/dotnet/api/system.datetime.tostring#System_DateTime_ToString) sin parámetros, mientras que \<xref:System.DateTime.ToString(System.String,System.IFormatProvider)> vincula al método [DateTime.ToString(String,IFormatProvider)](https://docs.microsoft.com/dotnet/api/system.datetime.tostring#System_DateTime_ToString_System_String_System_IFormatProvider_).
 
-Para vincular a un tipo genérico, como [System.Collections.Generic.List\<T>](https://docs.microsoft.com/dotnet/api/system.collections.generic.list-1), se usa el carácter \` (%60) seguido del número de parámetros de tipo genérico. Por ejemplo, \<xref:System.Nullable%601> vincula al tipo [System.Nullable\<T>](https://docs.microsoft.com/dotnet/api/system.nullable-1), mientras que \<xref:System.Func%602> vincula al delegado [System.Func\<T,TResult>](https://docs.microsoft.com/dotnet/api/system.func-2).
+Para vincular a un tipo genérico, como [System.Collections.Generic.List\<T>](https://docs.microsoft.com/dotnet/api/system.collections.generic.list-1), se usa el carácter \` (`%60`) seguido del número de parámetros de tipo genérico. Por ejemplo, `<xref:System.Nullable%601>` vincula al tipo [System.Nullable\<T>](https://docs.microsoft.com/dotnet/api/system.nullable-1), mientras que `<xref:System.Func%602>` vincula al delegado [System.Func\<T,TResult>](https://docs.microsoft.com/dotnet/api/system.func-2).
 
 ## <a name="code"></a>Código
 
