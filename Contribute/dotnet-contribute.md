@@ -1,13 +1,13 @@
 ---
 title: Contribuir a los repositorios de documentación de .NET
-description: En este artículo se tratan los repositorios que forman la documentación de .NET.
+description: En este artículo se describe el proceso para contribuir a los artículos y ejemplos de código de los repositorios que constituyen la documentación de .NET.
 ms.date: 11/07/2018
-ms.openlocfilehash: 364a38a0b9adbc9465531eb7d174864cc7b7a1e0
-ms.sourcegitcommit: 44eb4f5ee65c1848d7f36fca107b296eb7687397
+ms.openlocfilehash: 9104e4215538d2a9eeea7128a2572608b6adde8a
+ms.sourcegitcommit: 68d81b61ffa60aba16acfed023760449e16de91b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "51609725"
+ms.lasthandoff: 11/26/2018
+ms.locfileid: "52299600"
 ---
 # <a name="learn-how-to-contribute-to-the-net-docs-repositories"></a>Obtenga información sobre cómo contribuir a los repositorios de documentación de .NET
 

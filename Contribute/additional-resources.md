@@ -4,12 +4,12 @@ description: En este artículo se sugieren recursos de aprendizaje para Git y Gi
 author: billwagner
 ms.author: wiwagn
 manager: wpickett
-ms.openlocfilehash: bf12947d0956a5ee2953d74840afe3060425074d
-ms.sourcegitcommit: 44eb4f5ee65c1848d7f36fca107b296eb7687397
+ms.openlocfilehash: 4c29bfd09f17e32624ee3fc484424c4fe8d3b68e
+ms.sourcegitcommit: 68d81b61ffa60aba16acfed023760449e16de91b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "51609577"
+ms.lasthandoff: 11/26/2018
+ms.locfileid: "52299646"
 ---
 # <a name="additional-git-and-github-resources"></a>Recursos adicionales de Git y GitHub
 
@@ -20,8 +20,8 @@ Si no está familiarizado con Git o GitHub, estos recursos pueden ayudarle a apr
 - [Git basics](https://go.microsoft.com/fwlink/?linkid=853939) (Fundamentos de Git): contiene una visión general básica de cómo funciona Git.
 - [Pro Git eBook (web)](https://go.microsoft.com/fwlink/?linkid=853940) (Libro electrónico profesional de Git [web]): esta es una referencia exhaustiva de Git, en formato HTML.
 - [Pro Git eBook (PDF)](https://progit2.s3.amazonaws.com/en/2016-03-22-f3531/progit-en.1084.pdf) (Libro electrónico profesional de Git [PDF]): igual que el vínculo anterior, en formato PDF.
-- [Learn Git course from Codecademy](https://www.codecademy.com/learn/learn-git) (Información sobre curso de Git en Codecademy): tutorial de Git de Codecademy.
-- [Try Git course from Code School](https://www.codeschool.com/courses/try-git) (Prueba de curso de Git de Code School): tutorial de Git de Code School.
+- [Learn Git course from Codecademy](https://www.codecademy.com/learn/learn-git) (Información sobre curso de Git en Codecademy): tutorial de Git de Codeacademy.
+- [Try Git course from Code School on Pluralsight](https://www.pluralsight.com/courses/code-school-git-real) (Prueba de curso de Git de Code School en Pluralsight): tutorial de Git de Code School en Pluralsight.
 - [Git and Github course from Udacity](https://www.udacity.com/course/how-to-use-git-and-github--ud775) (Curso sobre Git y Github de Udacity): tutorial sobre Git y Github de Udacity.
 
 ## <a name="github-resources"></a>Recursos de GitHub
